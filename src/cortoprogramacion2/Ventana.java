@@ -69,7 +69,7 @@ public class Ventana extends javax.swing.JFrame {
         btnCerrar = new javax.swing.JButton();
         btnAccion = new javax.swing.JButton();
         lblResultado = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        jScrollPane2 = new javax.swing.JScrollPane();
         lstEstudiantes = new javax.swing.JList<>();
         lblFondo = new javax.swing.JLabel();
 
@@ -179,9 +179,9 @@ public class Ventana extends javax.swing.JFrame {
         getContentPane().add(btnAccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 210, -1, -1));
         getContentPane().add(lblResultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 240, 480, 20));
 
-        jScrollPane1.setViewportView(lstEstudiantes);
+        jScrollPane2.setViewportView(lstEstudiantes);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 270, 480, 190));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, 500, 170));
 
         lblFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Fondo2.png"))); // NOI18N
         getContentPane().add(lblFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 480));
@@ -353,7 +353,7 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JButton btnAccion;
     private javax.swing.JButton btnCerrar;
     private javax.swing.JComboBox<String> cmbGrado;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel lblApellido;
     private javax.swing.JLabel lblCarnet;
     private javax.swing.JLabel lblFondo;
