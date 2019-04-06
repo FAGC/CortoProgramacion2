@@ -70,7 +70,7 @@ public class Ventana extends javax.swing.JFrame {
         btnAccion = new javax.swing.JButton();
         lblResultado = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jList1 = new javax.swing.JList<>();
+        lstEstudiantes = new javax.swing.JList<>();
         lblFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -179,7 +179,7 @@ public class Ventana extends javax.swing.JFrame {
         getContentPane().add(btnAccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 210, -1, -1));
         getContentPane().add(lblResultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 240, 480, 20));
 
-        jScrollPane1.setViewportView(jList1);
+        jScrollPane1.setViewportView(lstEstudiantes);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 270, 480, 190));
 
@@ -353,7 +353,6 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JButton btnAccion;
     private javax.swing.JButton btnCerrar;
     private javax.swing.JComboBox<String> cmbGrado;
-    private javax.swing.JList<String> jList1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblApellido;
     private javax.swing.JLabel lblCarnet;
@@ -361,6 +360,7 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel lblGrado;
     private javax.swing.JLabel lblNombre;
     private javax.swing.JLabel lblResultado;
+    private javax.swing.JList<String> lstEstudiantes;
     private javax.swing.JRadioButton rbtnAgregar;
     private javax.swing.JRadioButton rbtnBuscar;
     private javax.swing.JRadioButton rbtnEditar;
