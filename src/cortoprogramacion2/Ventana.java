@@ -26,7 +26,6 @@ public class Ventana extends javax.swing.JFrame {
 
     public Ventana() {
         initComponents();
-        initComponents();
         setLocationRelativeTo(null);
         txtNombre.requestFocus();
         transparentes();
